@@ -1,0 +1,30 @@
+{
+  "name": "b2w-challenge",
+  "version": "1.0.0",
+  "description": "Node.js Restful CRUD API with Node.js, Express and MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha --timeout 15000 --exit"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "rest",
+    "api"
+  ],
+  "author": "tantunes",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.3.0",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mocha": "^8.2.1",
+    "mongoose": "^5.11.14",
+    "mongoose-paginate-v2": "^1.3.14",
+    "node-fetch": "^2.6.1"
+  }
+}
