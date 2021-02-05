@@ -26,3 +26,11 @@ A node API to CRUD operation using Node.js + Express.js + MongoDB
     docker container run --name mydatabase --publish 27017:27017 -d mongo 
     npm start
 ```
+
+APIs
+GET: /api/planets  (List all planets paginated)
+GET: /api/planets/:id  (Get planet by id)
+DELETE: /api/planets/:id  (Delete planet by id)
+POST: /api/planets/  (Create a planet)
+
+GET: /api/planets?name=tatooine  (Filter planet by name)
